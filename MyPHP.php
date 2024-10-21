@@ -88,5 +88,23 @@
         ]
     ];
 
-    var_dump($person.'name');
+    var_dump($person['name']).PHP_EOL;
+
+
+    //7.- Objects = Instances
     
+    //Antes de definir un objeto deberemos de definir su clase
+
+    class MyClass {
+        public $myproperty = 'Soy el retorno de una función';
+
+        public function myFunctiuon() {
+            return $this -> myproperty; 
+        }
+    }
+
+    //Definimos el objeto
+
+    $newObject = new MyClass();
+
+    echo $newObject->myFunctiuon();
