@@ -190,3 +190,53 @@
 			// code to be executed if none of the cases match
 	}
     */
+
+    //Bucle while
+    /*
+    while(condition){
+        // Code to be executed while condition is true
+    }
+    */
+
+    // Bucle do while
+    /*
+    do {
+        // Conition to be executed while condition is true Y LA PRIMERA VEZ QUE SE META EN LA ESTRUCTURA HASTA LLEGAR AL BUCLE DE COMPROBAR LA CONDICION
+    }  while(contition);
+    */
+
+    // Bucle for 
+    /*
+    for (initializacion de la variable index, condicion que se debe cumplir para que se ejecute, incrementador){
+
+        // Codigo que quieres que haga mientras se cumpla la condicion en cada una delas iteraciones del bucle
+    }
+    */
+
+    //Bucle for Each
+
+    /*
+    foreach( $cars as $car ) {
+        //Code to be executed
+    };
+    */
+
+
+    /*
+    //Antes de definir un objeto deberemos de definir su clase
+
+    class MyClass {
+        public $myproperty = 'Soy el retorno de una función';
+
+        public function myFunctiuon() {
+            return $this -> myproperty; 
+        }
+    }
+
+    //Definimos el objeto
+
+    $newObject = new MyClass();
+
+    echo $newObject->myFunctiuon().PHP_EOL;
+    */
+
