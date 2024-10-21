@@ -107,4 +107,86 @@
 
     $newObject = new MyClass();
 
-    echo $newObject->myFunctiuon();
+    echo $newObject->myFunctiuon().PHP_EOL;
+
+
+
+    // Expresiones en PHP
+    $a = 5;
+    $b = 3;
+    $d = 7;
+    $f = 6;
+    $e = 5;
+    $g = 7;
+    $c = 4;
+
+    // Operadores de Comparación
+    var_dump($a + $b + $c + $d).PHP_EOL;
+
+    echo $a == $b; // Output: false
+	echo $a != $b; // Output: true
+	echo $a > $b;  // Output: true
+	echo $a < $b;  // Output: false
+	echo $a >= $b; // Output: true
+	echo $a <= $b; // Output: false
+
+
+    // Operadores de Logica
+    echo $a > $b and $a < $c; // Output: true
+	echo $a > $b or $a > $c; // Output: true
+	echo !($a > $b); // Output: false
+
+
+    // Structuras de control de flujo
+
+    // Estructura if else basica
+
+    if ($a == $b) {
+        echo 'Ja'.PHP_EOL;
+    } else {
+        echo 'Jo'.PHP_EOL;
+    }
+
+
+    // Estructura de if elseif -> En cascada comprobando cada una de las condiciones
+    /*
+    if (condition1) {
+		// Code to be executed when condition1 is TRUE
+	} elseif (condition2) {
+		// Code to be executed when condition2 is TRUE
+	} elseif (condition3) {
+		// Code to be executed when condition3 is TRUE
+	} else {
+		// Code to be executed when all the previous conditions are FALSE
+	}
+    */
+
+    // Estructura de if if if if  -> En cascada comprobando en la primera iteracion TODAS las condiciones y PUDIENDO EJECUTAR MULTIPLES como resultado
+    /*
+    if (condition1) {
+		// Code to be executed when condition1 is TRUE
+	} if (condition2) {
+		// Code to be executed when condition2 is TRUE
+	} if (condition3) {
+		// Code to be executed when condition3 is TRUE
+	} if {
+		// Code to be executed when all the previous conditions are FALSE
+	}
+    */   
+
+
+    // Estructura de SWITCH
+
+    /*
+	switch (expression) {
+		case value1:
+			// code to be executed if expression equals value1
+			break;
+		case value2:
+			// code to be executed if expression equals value2
+			break;
+			// more cases can be added here
+		default:
+			// code to be executed if none of the cases match
+	}
+    */
