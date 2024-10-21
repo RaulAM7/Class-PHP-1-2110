@@ -65,3 +65,28 @@
     $myBoolean = true;
     echo $myBoolean.PHP_EOL;
 
+    //4.- NaN for impossible mathematical operations
+    $myNaN = log(0);
+    echo $myNaN.PHP_EOL;
+
+    //5.- Arrays
+    $myArrray = [1, 2, 3, 4];
+    // No se pueden imprimir arrays simples!!!!!!!!! -> var_dump($myArrray.PHP_EOL); 
+    $myArrray2  = array(4,5,6);
+    // No se pueden imprimir arrays simples!!!!!!!!! -> var_dump($myArrray.PHP_EOL);
+
+    //6.- Associative arrays
+    $person = [
+        'name' => 'Raul',
+        'surname' => 'Artiles',
+        'age' => 28,
+        'address' => [
+            'adress_type'=> 'Street',
+            'adress_Name'=> 'Isaac Albeniz',
+            'adress_Number'=> 36,
+        'gender'=> 'male',
+        ]
+    ];
+
+    var_dump($person.'name');
+    
